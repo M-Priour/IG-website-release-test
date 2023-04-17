@@ -1,0 +1,2 @@
+www/ig/nos/**qa.** filter=lfs diff=lfs merge=lfs -text
+www/ig/nos/**TRE-R13-CommuneOM** filter=lfs diff=lfs merge=lfs -text
