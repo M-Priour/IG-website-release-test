@@ -4,7 +4,7 @@ dir = /Users/runner/work/IG-NOS/IG-NOS, path = /Users/runner/hostedtoolcache/Jav
 Parameters: -go-publish -source igRepo -web ./IG-website-release/www/ig/ -registry ./IG-website-release/ig-registry/fhir-ig-list.json -history ./IG-website-release/fhir-ig-history-template -templates ./IG-website-release/templates
 ---------------
 Publication Run: publish igRepo to ./IG-website-release/www/ig/
-Run Number: 3
+Run Number: 4
 Web Layout using the script ans.fr.[code] & https://interop.esante.gouv.fr/ig/[code]
 Relative directory for IG is '/nos'
 All checks passed. Do the publication build from /Users/runner/work/IG-NOS/IG-NOS/igRepo and publish to /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/web-root/run-20230418/nos
@@ -14,59 +14,59 @@ FHIR IG Publisher Version 1.3.4 (Git# b9e58ebc9169). Built 2023-03-29T15:55:51.5
 Detected Java version: 17.0.6 from /Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.6-10/x64/Contents/Home on Mac OS X/x86_64 (64bit). 10240MB available
 dir = /Users/runner/work/IG-NOS/IG-NOS, path = /Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.6-10/x64/Contents/Home/bin:/usr/local/lib/ruby/gems/3.0.0/bin:/usr/local/opt/ruby@3.0/bin:/usr/local/opt/pipx_bin:/Users/runner/.cargo/bin:/usr/local/opt/curl/bin:/usr/local/bin:/usr/local/sbin:/Users/runner/bin:/Users/runner/.yarn/bin:/Users/runner/Library/Android/sdk/tools:/Users/runner/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/bin:/bin:/usr/sbin:/sbin:/Users/runner/.dotnet/tools:/Users/runner/.ghcup/bin:/Users/runner/hostedtoolcache/stack/2.9.3/x64
 Parameters: -ig /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 -resetTx -publish https://interop.esante.gouv.fr/ig/nos/0.1.0 -no-exit
-Start Clock @ Tuesday, April 18, 2023 at 9:44:55 AM Coordinated Universal Time (2023-04-18T09:44:55Z)
+Start Clock @ Tuesday, April 18, 2023 at 11:50:28 AM Coordinated Universal Time (2023-04-18T11:50:28Z)
 
-Build FHIR IG from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 (00:00.007)
-Build Formal Publication package, intended for https://interop.esante.gouv.fr/ig/nos/0.1.0 (00:00.009)
-API keys loaded from /Users/runner/fhir-api-keys.ini                             (00:00.015)
-Package Cache: /Users/runner/.fhir/packages                                      (00:00.020)
-Run Sushi on /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0   (00:00.024)
-Sushi: info  Running SUSHI v2.10.0 (implements FHIR Shorthand specification v2.0.0) (00:00.725)
-Sushi: info  Arguments:                                                          (00:00.727)
-Sushi: info    --require-latest                                                  (00:00.728)
-Sushi: info    --out /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 (00:00.730)
-Sushi: info    /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 (00:00.732)
-Sushi: (node:7481) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:01.484)
-Sushi: (Use `node --trace-warnings ...` to show where the warning was created)   (00:01.487)
-Sushi: (node:7481) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:01.488)
-Sushi: info  Using configuration file: /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/sushi-config.yaml (00:01.490)
-Sushi: info  Importing FSH text...                                               (00:01.506)
-Sushi: info  Preprocessed 0 documents with 0 aliases.                            (00:01.507)
-Sushi: info  Imported 0 definitions and 0 instances.                             (00:01.509)
-Sushi: info  Checking local cache for hl7.fhir.uv.tools#current...               (00:01.510)
-Sushi: info  Found hl7.fhir.uv.tools#current in local cache.                     (00:01.522)
-Sushi: info  Loaded package hl7.fhir.uv.tools#current                            (00:01.843)
-Sushi: info  Checking local cache for hl7.terminology.r4#5.0.0...                (00:02.284)
-Sushi: info  Found hl7.terminology.r4#5.0.0 in local cache.                      (00:03.003)
-Sushi: info  Loaded package hl7.terminology.r4#5.0.0                             (00:03.004)
-Sushi: info  Checking local cache for hl7.fhir.r4.core#4.0.1...                  (00:03.006)
-Sushi: info  Found hl7.fhir.r4.core#4.0.1 in local cache.                        (00:03.714)
-Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:03.715)
-Sushi: info  Converting FSH to FHIR resources...                                 (00:03.812)
-Sushi: info  Exporting FHIR resources as JSON...                                 (00:03.815)
-Sushi: info  Exported 0 FHIR resources as JSON.                                  (00:03.857)
-Sushi: info  Assembling Implementation Guide sources...                          (00:03.858)
-Sushi: info  Generated ImplementationGuide-ans.fr.nos.json                       (00:03.870)
-Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:03.871)
-Sushi:                                                                           (00:03.873)
-Sushi: ========================= SUSHI RESULTS ===========================       (00:03.874)
-Sushi: |  -------------------------------------------------------------  |       (00:03.875)
-Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:03.877)
-Sushi: | |-------------------------------------------------------------| |       (00:03.878)
-Sushi: | |       0       |      0       |      0       |       0       | |       (00:03.879)
-Sushi: |  -------------------------------------------------------------  |       (00:03.880)
-Sushi: |  -------------------------------------------------------------  |       (00:03.882)
-Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:03.883)
-Sushi: | |-------------------------------------------------------------| |       (00:03.884)
-Sushi: | |         0          |         0         |         0          | |       (00:03.886)
-Sushi: |  -------------------------------------------------------------  |       (00:03.887)
-Sushi: |                                                                 |       (00:03.889)
-Sushi: ===================================================================       (00:03.890)
-Sushi: | That went swimmingly!                  0 Errors      0 Warnings |       (00:03.891)
-Sushi: ===================================================================       (00:03.892)
-Sushi:                                                                           (00:03.893)
-Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:04.534)
-Load Template from https://github.com/ansforge/IG-template-Nos                   (00:05.119)
+Build FHIR IG from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 (00:00.065)
+Build Formal Publication package, intended for https://interop.esante.gouv.fr/ig/nos/0.1.0 (00:00.077)
+API keys loaded from /Users/runner/fhir-api-keys.ini                             (00:00.121)
+Package Cache: /Users/runner/.fhir/packages                                      (00:00.127)
+Run Sushi on /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0   (00:00.131)
+Sushi: info  Running SUSHI v2.10.0 (implements FHIR Shorthand specification v2.0.0) (00:01.230)
+Sushi: info  Arguments:                                                          (00:01.234)
+Sushi: info    --require-latest                                                  (00:01.253)
+Sushi: info    --out /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 (00:01.255)
+Sushi: info    /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 (00:01.257)
+Sushi: (node:8022) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:02.166)
+Sushi: (Use `node --trace-warnings ...` to show where the warning was created)   (00:02.173)
+Sushi: (node:8022) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:02.186)
+Sushi: info  Using configuration file: /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/sushi-config.yaml (00:02.188)
+Sushi: info  Importing FSH text...                                               (00:02.224)
+Sushi: info  Preprocessed 0 documents with 0 aliases.                            (00:02.225)
+Sushi: info  Imported 0 definitions and 0 instances.                             (00:02.227)
+Sushi: info  Checking local cache for hl7.fhir.uv.tools#current...               (00:02.228)
+Sushi: info  Found hl7.fhir.uv.tools#current in local cache.                     (00:02.243)
+Sushi: info  Loaded package hl7.fhir.uv.tools#current                            (00:02.528)
+Sushi: info  Checking local cache for hl7.terminology.r4#5.0.0...                (00:02.967)
+Sushi: info  Found hl7.terminology.r4#5.0.0 in local cache.                      (00:03.702)
+Sushi: info  Loaded package hl7.terminology.r4#5.0.0                             (00:03.703)
+Sushi: info  Checking local cache for hl7.fhir.r4.core#4.0.1...                  (00:03.705)
+Sushi: info  Found hl7.fhir.r4.core#4.0.1 in local cache.                        (00:04.866)
+Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:04.867)
+Sushi: info  Converting FSH to FHIR resources...                                 (00:04.961)
+Sushi: info  Exporting FHIR resources as JSON...                                 (00:04.965)
+Sushi: info  Exported 0 FHIR resources as JSON.                                  (00:05.044)
+Sushi: info  Assembling Implementation Guide sources...                          (00:05.048)
+Sushi: info  Generated ImplementationGuide-ans.fr.nos.json                       (00:05.082)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:05.084)
+Sushi:                                                                           (00:05.086)
+Sushi: ========================= SUSHI RESULTS ===========================       (00:05.089)
+Sushi: |  -------------------------------------------------------------  |       (00:05.091)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:05.092)
+Sushi: | |-------------------------------------------------------------| |       (00:05.094)
+Sushi: | |       0       |      0       |      0       |       0       | |       (00:05.097)
+Sushi: |  -------------------------------------------------------------  |       (00:05.098)
+Sushi: |  -------------------------------------------------------------  |       (00:05.100)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:05.101)
+Sushi: | |-------------------------------------------------------------| |       (00:05.103)
+Sushi: | |         0          |         0         |         0          | |       (00:05.104)
+Sushi: |  -------------------------------------------------------------  |       (00:05.106)
+Sushi: |                                                                 |       (00:05.109)
+Sushi: ===================================================================       (00:05.111)
+Sushi: | Tank you very much!                    0 Errors      0 Warnings |       (00:05.112)
+Sushi: ===================================================================       (00:05.113)
+Sushi:                                                                           (00:05.114)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:05.748)
+Load Template from https://github.com/ansforge/IG-template-Nos                   (00:06.534)
 
 onLoad.findSpreadsheets:
 
@@ -77,31 +77,31 @@ onLoad.updateIg:
 onLoad.extend:
 
 onLoad:
-Root directory: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 (00:11.294)
+Root directory: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0 (00:13.512)
 Core Package hl7.fhir.r4.core#4.0.1
-.:Terminology Cache is at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/input-cache/txcache. Clearing now (00:24.034)
-Connect to Terminology Server at http://tx.fhir.org                              (00:24.080)
+.:Terminology Cache is at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/input-cache/txcache. Clearing now (00:20.966)
+Connect to Terminology Server at http://tx.fhir.org                              (00:20.980)
 Load Package hl7.fhir.pubpack#0.1.4
 Load Package hl7.fhir.xver-extensions#0.0.12
 Load Package hl7.terminology.r4#5.0.0
-Version mismatch. This IG is version 4.0.1, while the IG 'igtools' is from version 5.0.0 (will try to run anyway) (00:30.508)
+Version mismatch. This IG is version 4.0.1, while the IG 'igtools' is from version 5.0.0 (will try to run anyway) (00:24.145)
 Load Package hl7.fhir.uv.tools#0.1.0
-Initialization complete                                                          (00:31.143)
-Fetch https://interop.esante.gouv.fr/ig/nos/package-list.json for version check  (00:31.147)
-Load Content                                                                     (00:31.595)
-Parsing FHIR content returned no elements in a context where one element is required loading /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/input/NOS/CDA/SVS/DV_ArtereCervelet-CISIS.xml (00:38.080)
+Initialization complete                                                          (00:24.758)
+Fetch https://interop.esante.gouv.fr/ig/nos/package-list.json for version check  (00:24.762)
+Load Content                                                                     (00:25.101)
+Parsing FHIR content returned no elements in a context where one element is required loading /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/input/NOS/CDA/SVS/DV_ArtereCervelet-CISIS.xml (00:28.813)
 loadPrePages from FetchedFile[/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/fsh-generated/includes] as /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/fsh-generated/includes
 loadPrePages from FetchedFile[/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/input/data] as /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/input/data
 loadPrePages from FetchedFile[/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/input/pagecontent] as /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/input/pagecontent
-Processing Conformance Resources                                                 (00:43.247)
-Generating Snapshots                                                             (00:47.557)
-Propagating status                                                               (00:47.634)
-Generating Narratives                                                            (00:47.636)
-Validating Conformance Resources                                                 (00:55.087)
-Validating Resources                                                             (01:04.647)
-Processing Provenance Records                                                    (01:04.649)
-Generating Outputs in /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/output (01:04.651)
-Run Template                                                                     (01:10.112)
+Processing Conformance Resources                                                 (00:32.014)
+Generating Snapshots                                                             (00:35.313)
+Propagating status                                                               (00:35.393)
+Generating Narratives                                                            (00:35.395)
+Validating Conformance Resources                                                 (00:40.949)
+Validating Resources                                                             (00:47.380)
+Processing Provenance Records                                                    (00:47.382)
+Generating Outputs in /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/output (00:47.384)
+Run Template                                                                     (00:50.173)
 
 onGenerate.checkVersions:
      [xslt] Processing /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/template/onGenerate-ig-working.xml to /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/template/versions.txt
@@ -184,94 +184,92 @@ onGenerate.copyDataFiles:
 onGenerate.extend:
 
 onGenerate:
-Template Done                                                                    (01:15.068)
-Generating Summary Outputs                                                       (01:34.764)
-Sending Usage Stats to Server                                                    (01:41.661)
-## Memory (MB): Use = 944, Free = 391, Total = 1336, Max =10240
+Template Done                                                                    (00:54.282)
+Generating Summary Outputs                                                       (01:05.297)
+Sending Usage Stats to Server                                                    (01:09.834)
+## Memory (MB): Use = 1310, Free = 937, Total = 2248, Max =10240
 Reclaiming memory...
-## Memory (MB): Use = 458, Free = 877, Total = 1336, Max =10240
-Run jekyll: jekyll build --destination "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/output" (in folder /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/temp/pages) (01:42.491)
-Jekyll: Source: /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/temp/pages (01:43.913)
-Jekyll: Generating...                                                            (01:43.915)
-Jekyll: done in 3.192 seconds.                                                   (01:47.105)
+## Memory (MB): Use = 456, Free = 1118, Total = 1576, Max =10240
+Run jekyll: jekyll build --destination "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/output" (in folder /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/temp/pages) (01:10.197)
+Jekyll: Source: /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/temp/pages (01:10.843)
+Jekyll: Generating...                                                            (01:10.845)
+Jekyll: done in 1.636 seconds.                                                   (01:12.479)
 Installing ans.fr.nos#1.1.0 to the package cache
   Fetching:
 
   Installing:  done.
-Checking Output HTML                                                             (01:51.797)
-found 883 files                                                                  (01:51.828)
+Checking Output HTML                                                             (01:15.392)
+found 883 files                                                                  (01:15.406)
 ........................................
 ........................................
-  ... 883 html files, 0 pages invalid xhtml (0%)                                 (02:09.136)
-  ... 128412 links, 185 broken links (0%)                                        (02:09.138)
-Build final .zip                                                                 (02:09.139)
-Final .zip built                                                                 (02:10.893)
-Built. Times: loading: 00:11.649, generate: 01:29.145, narrative generation: 00:07.449, realm-rules: 00:00.000, previous-version: 00:00.000, jekyll: 00:04.623, validation: 00:09.539 (#34), template: 00:04.953 (#3) (02:12.426)
+  ... 883 html files, 0 pages invalid xhtml (0%)                                 (01:25.877)
+  ... 128412 links, 185 broken links (0%)                                        (01:25.879)
+Build final .zip                                                                 (01:25.881)
+Final .zip built                                                                 (01:27.013)
+Built. Times: loading: 00:06.911, generate: 00:56.412, narrative generation: 00:05.553, realm-rules: 00:00.000, previous-version: 00:00.000, jekyll: 00:02.292, validation: 00:06.410 (#34), template: 00:04.106 (#3) (01:28.463)
 Validation output in /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0/output/qa.html
-Errors: 132, Warnings: 4225, Info: 14, Broken Links: 185 (02:35.698)
-Finished                                                                         (02:35.702)
-Done                                                                             (02:35.704)
+Errors: 132, Warnings: 4225, Info: 14, Broken Links: 185 (01:41.106)
+Finished                                                                         (01:41.110)
+Done                                                                             (01:41.112)
 Prepare Build space in /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone
 Build IG at /Users/runner/work/IG-NOS/IG-NOS/igRepo: final copy suitable for publication (in /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone) (milestone build)
 FHIR IG Publisher Version 1.3.4 (Git# b9e58ebc9169). Built 2023-03-29T15:55:51.502Z (19 days old)
 Detected Java version: 17.0.6 from /Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.6-10/x64/Contents/Home on Mac OS X/x86_64 (64bit). 10240MB available
 dir = /Users/runner/work/IG-NOS/IG-NOS, path = /Users/runner/hostedtoolcache/Java_Temurin-Hotspot_jdk/17.0.6-10/x64/Contents/Home/bin:/usr/local/lib/ruby/gems/3.0.0/bin:/usr/local/opt/ruby@3.0/bin:/usr/local/opt/pipx_bin:/Users/runner/.cargo/bin:/usr/local/opt/curl/bin:/usr/local/bin:/usr/local/sbin:/Users/runner/bin:/Users/runner/.yarn/bin:/Users/runner/Library/Android/sdk/tools:/Users/runner/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/Current/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/bin:/bin:/usr/sbin:/sbin:/Users/runner/.dotnet/tools:/Users/runner/.ghcup/bin:/Users/runner/hostedtoolcache/stack/2.9.3/x64
 Parameters: -ig /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone -publish https://interop.esante.gouv.fr/ig/nos/0.1.0 -milestone -no-exit
-Start Clock @ Tuesday, April 18, 2023 at 9:47:50 AM Coordinated Universal Time (2023-04-18T09:47:50Z)
+Start Clock @ Tuesday, April 18, 2023 at 11:52:20 AM Coordinated Universal Time (2023-04-18T11:52:20Z)
 
-Build FHIR IG from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:00.030)
-Build Formal Publication package, intended for https://interop.esante.gouv.fr/ig/nos/0.1.0 (00:00.032)
-API keys loaded from /Users/runner/fhir-api-keys.ini                             (00:00.056)
-Package Cache: /Users/runner/.fhir/packages                                      (00:00.058)
-Run Sushi on /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:00.060)
-Sushi: info  Running SUSHI v2.10.0 (implements FHIR Shorthand specification v2.0.0) (00:01.077)
-Sushi: info  Arguments:                                                          (00:01.079)
-Sushi: info    --require-latest                                                  (00:01.080)
-Sushi: info    --out /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:01.081)
-Sushi: info    /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:01.083)
-Sending usage stats failed: Operation timed out
-Sushi: (node:13354) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:02.840)
-Sushi: (Use `node --trace-warnings ...` to show where the warning was created)   (00:02.841)
-Sushi: (node:13354) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:02.843)
-Sushi: (node:13354) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency
-info  Using configuration file: /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/sushi-config.yaml (00:02.845)
-Sushi: info  Importing FSH text...                                               (00:02.863)
-Sushi: info  Preprocessed 0 documents with 0 aliases.                            (00:02.865)
-Sushi: info  Imported 0 definitions and 0 instances.                             (00:02.866)
-Sushi: info  Checking local cache for hl7.fhir.uv.tools#current...               (00:02.870)
-Sushi: info  Found hl7.fhir.uv.tools#current in local cache.                     (00:02.885)
-Sushi: info  Loaded package hl7.fhir.uv.tools#current                            (00:03.164)
-Sushi: info  Checking local cache for hl7.terminology.r4#5.0.0...                (00:03.669)
-Sushi: info  Found hl7.terminology.r4#5.0.0 in local cache.                      (00:04.917)
-Sushi: info  Loaded package hl7.terminology.r4#5.0.0                             (00:04.918)
-Sushi: info  Checking local cache for hl7.fhir.r4.core#4.0.1...                  (00:04.919)
-Sushi: info  Found hl7.fhir.r4.core#4.0.1 in local cache.                        (00:05.617)
-Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:05.619)
-Sushi: info  Converting FSH to FHIR resources...                                 (00:05.702)
-Sushi: info  Exporting FHIR resources as JSON...                                 (00:05.704)
-Sushi: info  Exported 0 FHIR resources as JSON.                                  (00:05.744)
-Sushi: info  Assembling Implementation Guide sources...                          (00:05.746)
-Sushi: info  Generated ImplementationGuide-ans.fr.nos.json                       (00:05.757)
-Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:05.759)
-Sushi:                                                                           (00:05.760)
-Sushi: ========================= SUSHI RESULTS ===========================       (00:05.761)
-Sushi: |  -------------------------------------------------------------  |       (00:05.762)
-Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:05.763)
-Sushi: | |-------------------------------------------------------------| |       (00:05.764)
-Sushi: | |       0       |      0       |      0       |       0       | |       (00:05.765)
-Sushi: |  -------------------------------------------------------------  |       (00:05.767)
-Sushi: |  -------------------------------------------------------------  |       (00:05.768)
-Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:05.769)
-Sushi: | |-------------------------------------------------------------| |       (00:05.770)
-Sushi: | |         0          |         0         |         0          | |       (00:05.771)
-Sushi: |  -------------------------------------------------------------  |       (00:05.772)
-Sushi: |                                                                 |       (00:05.773)
-Sushi: ===================================================================       (00:05.774)
-Sushi: | You're piranha roll now!               0 Errors      0 Warnings |       (00:05.775)
-Sushi: ===================================================================       (00:05.776)
-Sushi:                                                                           (00:05.778)
-Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:05.787)
-Load Template from https://github.com/ansforge/IG-template-Nos                   (00:05.827)
+Build FHIR IG from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:00.004)
+Build Formal Publication package, intended for https://interop.esante.gouv.fr/ig/nos/0.1.0 (00:00.007)
+API keys loaded from /Users/runner/fhir-api-keys.ini                             (00:00.012)
+Package Cache: /Users/runner/.fhir/packages                                      (00:00.014)
+Run Sushi on /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:00.015)
+Sushi: info  Running SUSHI v2.10.0 (implements FHIR Shorthand specification v2.0.0) (00:00.636)
+Sushi: info  Arguments:                                                          (00:00.638)
+Sushi: info    --require-latest                                                  (00:00.639)
+Sushi: info    --out /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:00.641)
+Sushi: info    /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:00.642)
+Sushi: (node:9410) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:01.676)
+Sushi: (Use `node --trace-warnings ...` to show where the warning was created)   (00:01.678)
+Sushi: (node:9410) Warning: Accessing non-existent property 'INVALID_ALT_NUMBER' of module exports inside circular dependency (00:01.679)
+Sushi: info  Using configuration file: /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/sushi-config.yaml (00:01.682)
+Sushi: info  Importing FSH text...                                               (00:01.698)
+Sushi: info  Preprocessed 0 documents with 0 aliases.                            (00:01.699)
+Sushi: info  Imported 0 definitions and 0 instances.                             (00:01.701)
+Sushi: info  Checking local cache for hl7.fhir.uv.tools#current...               (00:01.702)
+Sushi: info  Found hl7.fhir.uv.tools#current in local cache.                     (00:01.715)
+Sushi: info  Loaded package hl7.fhir.uv.tools#current                            (00:02.020)
+Sushi: info  Checking local cache for hl7.terminology.r4#5.0.0...                (00:02.534)
+Sushi: info  Found hl7.terminology.r4#5.0.0 in local cache.                      (00:03.252)
+Sushi: info  Loaded package hl7.terminology.r4#5.0.0                             (00:03.253)
+Sushi: info  Checking local cache for hl7.fhir.r4.core#4.0.1...                  (00:03.254)
+Sushi: info  Found hl7.fhir.r4.core#4.0.1 in local cache.                        (00:03.985)
+Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:03.987)
+Sushi: info  Converting FSH to FHIR resources...                                 (00:04.072)
+Sushi: info  Exporting FHIR resources as JSON...                                 (00:04.074)
+Sushi: info  Exported 0 FHIR resources as JSON.                                  (00:04.123)
+Sushi: info  Assembling Implementation Guide sources...                          (00:04.124)
+Sushi: info  Generated ImplementationGuide-ans.fr.nos.json                       (00:04.136)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:04.137)
+Sushi:                                                                           (00:04.138)
+Sushi: ========================= SUSHI RESULTS ===========================       (00:04.139)
+Sushi: |  -------------------------------------------------------------  |       (00:04.140)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:04.142)
+Sushi: | |-------------------------------------------------------------| |       (00:04.143)
+Sushi: | |       0       |      0       |      0       |       0       | |       (00:04.144)
+Sushi: |  -------------------------------------------------------------  |       (00:04.145)
+Sushi: |  -------------------------------------------------------------  |       (00:04.146)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:04.147)
+Sushi: | |-------------------------------------------------------------| |       (00:04.148)
+Sushi: | |         0          |         0         |         0          | |       (00:04.150)
+Sushi: |  -------------------------------------------------------------  |       (00:04.151)
+Sushi: |                                                                 |       (00:04.152)
+Sushi: ===================================================================       (00:04.153)
+Sushi: | You're piranha roll now!               0 Errors      0 Warnings |       (00:04.154)
+Sushi: ===================================================================       (00:04.155)
+Sushi:                                                                           (00:04.156)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:04.164)
+Load Template from https://github.com/ansforge/IG-template-Nos                   (00:04.208)
 
 onLoad.findSpreadsheets:
 
@@ -282,31 +280,32 @@ onLoad.updateIg:
 onLoad.extend:
 
 onLoad:
-Root directory: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:09.146)
+Root directory: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone (00:06.836)
 Core Package hl7.fhir.r4.core#4.0.1
-.:Terminology Cache is at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/input-cache/txcache. 16 files in cache (00:16.415)
-Connect to Terminology Server at http://tx.fhir.org                              (00:16.417)
+.:Terminology Cache is at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/input-cache/txcache. 16 files in cache (00:12.429)
+Connect to Terminology Server at http://tx.fhir.org                              (00:12.431)
 Load Package hl7.fhir.pubpack#0.1.4
 Load Package hl7.fhir.xver-extensions#0.0.12
 Load Package hl7.terminology.r4#5.0.0
-Version mismatch. This IG is version 4.0.1, while the IG 'igtools' is from version 5.0.0 (will try to run anyway) (00:19.554)
+Version mismatch. This IG is version 4.0.1, while the IG 'igtools' is from version 5.0.0 (will try to run anyway) (00:14.728)
 Load Package hl7.fhir.uv.tools#0.1.0
-Initialization complete                                                          (00:20.111)
-Fetch https://interop.esante.gouv.fr/ig/nos/package-list.json for version check  (00:20.112)
-Load Content                                                                     (00:20.464)
-Parsing FHIR content returned no elements in a context where one element is required loading /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/input/NOS/CDA/SVS/DV_ArtereCervelet-CISIS.xml (00:25.231)
+Initialization complete                                                          (00:15.111)
+Fetch https://interop.esante.gouv.fr/ig/nos/package-list.json for version check  (00:15.112)
+Load Content                                                                     (00:15.479)
+Parsing FHIR content returned no elements in a context where one element is required loading /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/input/NOS/CDA/SVS/DV_ArtereCervelet-CISIS.xml (00:18.376)
 loadPrePages from FetchedFile[/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/fsh-generated/includes] as /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/fsh-generated/includes
 loadPrePages from FetchedFile[/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/input/data] as /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/input/data
 loadPrePages from FetchedFile[/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/input/pagecontent] as /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/input/pagecontent
-Processing Conformance Resources                                                 (00:27.760)
-Generating Snapshots                                                             (00:30.553)
-Propagating status                                                               (00:30.601)
-Generating Narratives                                                            (00:30.603)
-Validating Conformance Resources                                                 (00:45.718)
-Validating Resources                                                             (00:51.766)
-Processing Provenance Records                                                    (00:51.770)
-Generating Outputs in /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/output (00:51.772)
-Run Template                                                                     (00:53.974)
+Processing Conformance Resources                                                 (00:21.167)
+Generating Snapshots                                                             (00:24.131)
+Propagating status                                                               (00:24.174)
+Generating Narratives                                                            (00:24.176)
+Sending usage stats failed: Operation timed out
+Validating Conformance Resources                                                 (00:39.744)
+Validating Resources                                                             (00:45.124)
+Processing Provenance Records                                                    (00:45.125)
+Generating Outputs in /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/output (00:45.127)
+Run Template                                                                     (00:47.359)
 
 onGenerate.checkVersions:
      [xslt] Processing /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/template/onGenerate-ig-working.xml to /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/template/versions.txt
@@ -389,32 +388,32 @@ onGenerate.copyDataFiles:
 onGenerate.extend:
 
 onGenerate:
-Template Done                                                                    (00:58.470)
-Generating Summary Outputs                                                       (01:18.916)
-Sending Usage Stats to Server                                                    (01:24.031)
-## Memory (MB): Use = 2702, Free = 1417, Total = 4120, Max =10240
+Template Done                                                                    (00:51.428)
+Generating Summary Outputs                                                       (01:09.328)
+Sending Usage Stats to Server                                                    (01:13.895)
+## Memory (MB): Use = 1164, Free = 2403, Total = 3568, Max =10240
 Reclaiming memory...
-## Memory (MB): Use = 462, Free = 1137, Total = 1600, Max =10240
-Run jekyll: jekyll build --destination "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/output" (in folder /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/temp/pages) (01:24.903)
-Jekyll: Source: /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/temp/pages (01:25.710)
-Jekyll: Generating...                                                            (01:25.713)
-Jekyll: done in 1.539 seconds.                                                   (01:27.249)
+## Memory (MB): Use = 457, Free = 1118, Total = 1576, Max =10240
+Run jekyll: jekyll build --destination "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/output" (in folder /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/temp/pages) (01:14.275)
+Jekyll: Source: /private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/temp/pages (01:14.923)
+Jekyll: Generating...                                                            (01:14.926)
+Jekyll: done in 1.94 seconds.                                                    (01:16.863)
 Installing ans.fr.nos#1.1.0 to the package cache
   Fetching:
 
-  Installing: Checking Output HTML                                                             (01:29.351)
-found 883 files                                                                  (01:29.364)
+  Installing: Checking Output HTML                                                             (01:18.713)
+found 883 files                                                                  (01:18.727)
 ........................................
 ........................................
-  ... 883 html files, 0 pages invalid xhtml (0%)                                 (01:38.830)
-  ... 128412 links, 185 broken links (0%)                                        (01:38.832)
-Build final .zip                                                                 (01:38.833)
-Final .zip built                                                                 (01:40.241)
-Built. Times: loading: 00:07.294, generate: 01:14.038, narrative generation: 00:15.113, realm-rules: 00:00.000, previous-version: 00:00.000, jekyll: 00:02.354, validation: 00:06.027 (#34), template: 00:04.493 (#3) (01:41.949)
+  ... 883 html files, 0 pages invalid xhtml (0%)                                 (01:27.931)
+  ... 128412 links, 185 broken links (0%)                                        (01:27.932)
+Build final .zip                                                                 (01:27.934)
+Final .zip built                                                                 (01:29.052)
+Built. Times: loading: 00:05.686, generate: 01:09.247, narrative generation: 00:15.566, realm-rules: 00:00.000, previous-version: 00:00.000, jekyll: 00:02.598, validation: 00:05.366 (#34), template: 00:04.067 (#3) (01:30.559)
 Validation output in /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ans.fr.nos#1.1.0-milestone/output/qa.html
-Errors: 132, Warnings: 4225, Info: 14, Broken Links: 185 (01:57.875)
-Finished                                                                         (01:57.879)
-Done                                                                             (01:57.881)
+Errors: 132, Warnings: 4225, Info: 14, Broken Links: 185 (01:42.296)
+Finished                                                                         (01:42.300)
+Done                                                                             (01:42.301)
 Keep a copy of the build directory at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/web-root/run-20230418/ig-build-zips/ans.fr.nos#1.1.0.zip
 
 ok. All checks passed. Publish v1.1.0 to /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/web-root/run-20230418/nos/0.1.0
