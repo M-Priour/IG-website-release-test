@@ -5,21 +5,6 @@
   "introduction" : "Guide d'implémentation FHIR - NOS",
   "category" : "Terminology",
   "list" : [
-    {
-      "version" : "current",
-      "desc" : "Continuous Integration Build",
-      "path" : "https://ansforge.github.io/IG-NOS/ig/main/",
-      "status" : "ci-build"
-    },
-    {
-      "version" : "1.1.0",
-      "path" : "https://interop.esante.gouv.fr/ig/nos/0.1.0",
-      "status" : "ballot",
-      "sequence" : "draft",
-      "fhirversion" : "4.0.1",
-      "date" : "2023-04-18",
-      "current" : true,
-      "desc" : "Description de la release"
-    }
+
   ]
 }
